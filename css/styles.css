@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.jumbotron{
+	background-size: cover;
+	background-color: black;
+	background-image: url("../images/header.png");
+	overflow:hidden;
+	margin-bottom: 0;
+}
+
+
+body{
+	background-image: url("../images/backgroundimage.png");
+	background-color: black;
+}
+
+
+.header-contain{
+	color: #fff;
+	background-color: rgba(0.50,0.50,0.50,0.50);
+	margin: 0 auto;
+	width: 50%;
+	text-align:  center;
+	padding: 1em;
+	font-size: 1em;
+}
+
+.display-4{
+	font-size: 4em;
+}
+
+.lead{
+	font-size:2em;
+}
+.card-body{
+	color: #fff;
+	background-color: rgba(0.50,0,0,0.50);
+	margin: 0 auto;
+}
+
+.row{
+	color: #fff;
+	background-color: rgba(0.70,0,0,0.70);
+	margin: 0 auto;
+}
+.card{
+	background-color: rgba(0.50,0,0,0.50);
+}
+
+.card .card-title{
+	font-size: 2em;
+}
+.card .card-text{
+	font-size: 1.3em;
+}
+
+.carousel-inner img{
+	width: 25%;
+	height: 25%;
+}
+
+.carousel-inner .carousel-caption{
+	background-color: rgba(0.50,0,0,0.50);
+}
+/*for creating a black navbar*/
+.navbar-black{
+	background-color: #060606;
+}
+
+.navbar-black .navbar-brand, .navbar-black .navbar-text {
+	color: rgba(255,255,255,1.00);	
+	font-size: 2em;
+}
+
+.navbar-black .navbar-nav .nav-item .navlink{
+	color: gray;
+	padding: .5em, 1em;
+}
+
+.navbar-black .nav-item.active .nav-link, .navbar-black .nav-item .nav-link{
+	color: white;
+	font-size: 1.25em;
+	padding: 1em;
+	
+}
+.navbar-black .nav-item.active .nav-link, .navbar-black .nav-item .nav-link:hover{
+	color: white;
+	background-color: #1A1919;
+}
+
+
+.navbar-black .navbar-toggler, .navbar-toggler-icon{
+	color: white;
+}
+
+
+.footer-black{
+	background-color: rgba(0,0,0,0.90);
+}
+
+.footer-black .footer-strip{
+	background-color: #000000;
+}
+
+
+#video .container{
+	background-color: rgba(0,0,0,0.90);
+}
+.progress .progress-bar{
+	font-size: 1.5em;
+}
